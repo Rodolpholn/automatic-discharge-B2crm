@@ -51,6 +51,9 @@ Important: During installation on Windows, check the box "Add Python to PATH".
 
 ```Bash
    git clone https://github.com/Rodolpholn/automatic-discharge-B2crm.git
+```
+
+```Bash
    cd automatic-discharge-B2crm
 ```
 
