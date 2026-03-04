@@ -17,8 +17,10 @@ automatic-discharge-B2crm/
 ├── .gitignore          # Rules to prevent sensitive data leaks
 ├── requirements.txt    # Project dependencies and libraries
 └── README.md           # Project documentation
+```
 
 ## 🛠️ Key Features
+
 Data Normalization: Automatically formats Excel headers and lead information to ensure API compatibility.
 
 Secure Configuration: Utilizes environment variables (.env) to protect sensitive Webhook URLs and API endpoints.
@@ -59,4 +61,7 @@ Bash
 python src/index.py
 📈 Professional Context
 This project highlights my proficiency in Python automation and API integrations. It solves a real-world business challenge by automating the flow between marketing spreadsheets and sales CRM systems, demonstrating a focus on efficiency and data security.
+
+```
+
 ```
