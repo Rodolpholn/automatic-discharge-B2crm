@@ -85,7 +85,3 @@ python src/index.py
 ## 📈 Professional Context
 
 This project highlights my proficiency in Python automation and API integrations. It solves a real-world business challenge by automating the flow between marketing spreadsheets and sales CRM systems, demonstrating a focus on efficiency and data security.
-
-```
-
-```
