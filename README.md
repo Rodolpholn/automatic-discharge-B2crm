@@ -29,7 +29,8 @@ Resilience & Error Handling: Built with the requests library, featuring connecti
 
 Smart Directory Resolution: Implements dynamic path handling to ensure the script runs correctly regardless of the execution environment.
 
-🧰 Tech Stack
+## 🧰 Tech Stack
+
 Language: Python 3.x.
 
 Data Handling: Pandas & OpenPyXL.
@@ -38,28 +39,51 @@ API Integration: Requests.
 
 Environment Management: Python-Dotenv.
 
-🚀 How to Run
+## 🚀 How to Run
 
-1. Clone the repository
-   Bash
+### 1. Install Python
+
+If you don't have Python installed, download it at python.org.
+
+Important: During installation on Windows, check the box "Add Python to PATH".
+
+### 2. Clone the repository
+
+```Bash
    git clone https://github.com/Rodolpholn/automatic-discharge-B2crm.git
-2. Install Dependencies
-   Use the requirements.txt file to set up your environment:
+   cd automatic-discharge-B2crm
+```
 
-Bash
-python -m pip install -r requirements.txt 3. Setup Environment Variables
+### 3. Install Libraries (Dependencies)
+
+Run the following command in your terminal to install all necessary libraries at once:
+
+```Bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Setup Environment Variables
+
 Create a file named .env in the root directory and add your CRM Webhook URL:
 
-Fragmento do código
-WEBHOOK_URL=https://your-crm-link.com/webhook 4. Prepare your Data
+```Bash
+WEBHOOK_URL=https://your-crm-link.com/webhook
+```
+
+### 5. Prepare your Data
+
 Ensure your Leads.xlsx file is inside the data/ folder with the following columns: ID, NOME, and CELULAR.
 
 5. Execute
    Run the script from the root of the project:
 
-Bash
+```Bash
 python src/index.py
-📈 Professional Context
+
+```
+
+## 📈 Professional Context
+
 This project highlights my proficiency in Python automation and API integrations. It solves a real-world business challenge by automating the flow between marketing spreadsheets and sales CRM systems, demonstrating a focus on efficiency and data security.
 
 ```
