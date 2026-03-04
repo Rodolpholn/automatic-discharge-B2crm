@@ -6,6 +6,7 @@ The repository is organized following clean code principles and modular architec
 
 Plaintext
 automatic-discharge-B2crm/
+
 ├── data/ # Local storage for Excel files (ignored by git)
 
 │ └── Leads.xlsx # Input data file
